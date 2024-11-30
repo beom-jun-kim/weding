@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>유나와 범준이의 결혼 계획</title>
 </head>
 <style>
+    body {
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     table {
         width: 80%;
         border-collapse: collapse;
     }
+    td:first-child {
+        text-align: center;
+    }
     th,td {
         padding: 10px;
+    }
+    .fir_thead {
+        background: rgb(245, 186, 135);
+    }
+    .sec_thead {
+        background: rgb(115, 197, 229);
     }
 </style>
 <body>
     <table border="1">
-        <thead>
+        <colgroup>
+            <col style="width: 15%;">
+            <col>
+        </colgroup>
+        <thead class="fir_thead">
             <tr>
                 <th colspan="2">결혼 준비 일정표</th>
             </tr>
         </thead>
-        <thead>
+        <thead class="sec_thead">
             <tr>
                 <th>day</th>
                 <th>내용</th>
@@ -29,63 +48,77 @@
         </thead>
         <tbody>
             <tr>
-                <td>D-180</td>
+                <td>24.11</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 상견례</p>
+                    <p>2. 결혼 예산</p>
                 </td>
             </tr>
             <tr>
-                <td>D-150</td>
+                <td>24.12</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 청첩장 주문</p>
+                    <p> - 모바일</p>
+                    <p> - 실물</p>
                 </td>
             </tr>
             <tr>
-                <td>D-120</td>
+                <td>24.01</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 신혼여행 계획</p>
+                    <p>2. 신혼여행 예산</p>
+                    <p>3. 신혼여행 결제</p>
                 </td>
             </tr>
             <tr>
-                <td>D-90</td>
+                <td>24.02</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 하객 인원 파악</p>
+                    <p>2. 결혼식 순서 파악</p>
+                    <p>3. 결혼식 축가 / 사회 정하기</p>
                 </td>
             </tr>
             <tr>
-                <td>D-60</td>
+                <td>24.03</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 스드메 촬영 준비</p>
+                    <p>2. 스드메 촬영 준비</p>
                 </td>
             </tr>
             <tr>
-                <td>D-50</td>
+                <td>24.04</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 스드메 촬영</p>
                 </td>
             </tr>
             <tr>
-                <td>D-30</td>
+                <td>24.05</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 결혼식에 필요한 모든 항목 체크</p>
                 </td>
             </tr>
             <tr>
-                <td>D-10</td>
+                <td>24.06</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 청첩장 돌리기(모바일 or 실물)</p>
+                    <p>2. 친구들 인사</p>
                 </td>
             </tr>
             <tr>
-                <td>D-1</td>
+                <td>24.07</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 결혼 지원금 알아보기</p>
+                    <p>2. 지원금 서류 작성</p>
+                    <p>3. 지원금 신청</p>
                 </td>
+                
             </tr>
             <tr>
-                <td>D-day</td>
+                <td>24.08</td>
                 <td>
-                    <span>상견례하기</span>
+                    <p>1. 이사</p>
+                    <p>2. LH 알아보기</p>
+                    <p>3. 결혼</p>
                 </td>
             </tr>
         </tbody>
